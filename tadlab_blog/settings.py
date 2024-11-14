@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-sa)2mwhe4lksz9v6boa4_)#m5n*l$$tahp^$v2zr7jt6onsh*q
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app']
 
 
 # Application definition
@@ -70,7 +70,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'tadlab_blog.wsgi.application'
+WSGI_APPLICATION = 'tadlab_blog.wsgi.app'
 
 
 # Database
